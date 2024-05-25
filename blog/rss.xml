@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
-        <link>https://your-docusaurus-site.example.com/my-website/blog</link>
-        <description>My Site Blog</description>
+        <title>Laomao's Site Blog</title>
+        <link>https://lrchljw.github.io/my-website/blog</link>
+        <description>Laomao's Site Blog</description>
         <lastBuildDate>Sat, 25 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[My first blog]]></title>
-            <link>https://your-docusaurus-site.example.com/my-website/blog/2024/05/25/my-first-blog</link>
-            <guid>https://your-docusaurus-site.example.com/my-website/blog/2024/05/25/my-first-blog</guid>
+            <link>https://lrchljw.github.io/my-website/blog/2024/05/25/my-first-blog</link>
+            <guid>https://lrchljw.github.io/my-website/blog/2024/05/25/my-first-blog</guid>
             <pubDate>Sat, 25 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Establish a personal document and blog website for me to record and review the knowledge I have learned, otherwise it will be too easy to forget.]]></description>
             <content:encoded><![CDATA[<p>Establish a personal document and blog website for me to record and review the knowledge I have learned, otherwise it will be too easy to forget.</p>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/my-website/blog</id>
-    <title>My Site Blog</title>
+    <id>https://lrchljw.github.io/my-website/blog</id>
+    <title>Laomao's Site Blog</title>
     <updated>2024-05-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/my-website/blog"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/my-website/img/favicon.ico</icon>
+    <link rel="alternate" href="https://lrchljw.github.io/my-website/blog"/>
+    <subtitle>Laomao's Site Blog</subtitle>
+    <icon>https://lrchljw.github.io/my-website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[My first blog]]></title>
-        <id>https://your-docusaurus-site.example.com/my-website/blog/2024/05/25/my-first-blog</id>
-        <link href="https://your-docusaurus-site.example.com/my-website/blog/2024/05/25/my-first-blog"/>
+        <id>https://lrchljw.github.io/my-website/blog/2024/05/25/my-first-blog</id>
+        <link href="https://lrchljw.github.io/my-website/blog/2024/05/25/my-first-blog"/>
         <updated>2024-05-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Establish a personal document and blog website for me to record and review the knowledge I have learned, otherwise it will be too easy to forget.]]></summary>
         <content type="html"><![CDATA[<p>Establish a personal document and blog website for me to record and review the knowledge I have learned, otherwise it will be too easy to forget.</p>
