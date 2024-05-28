@@ -167,7 +167,6 @@ arr := []int{1, 2, 3, 4, 5}
 for i, v := range arr {
     fmt.Printf("Index: %d, Value: %d\n", i, v)
 }
-
 // only index
 for i := range arr {
     fmt.Println("Index:", i)
@@ -239,7 +238,9 @@ for i < 5 {
 // Go doesn't have do-while loop.
 ```
 
-## Enum
+## Data Types
+
+### Enum
 
 ```java title="Java" showLineNumbers
 // TODO
@@ -249,10 +250,7 @@ for i < 5 {
 // There is no built-in enum type in Go.
 // Simulate enum using a new type and constants of that type.
 
-package main
-
-import "fmt"
-
+// Below is an example of string enum.
 type Color string
 
 const (
@@ -260,6 +258,17 @@ const (
     Green Color = "green"
 )
 
+var c Color = Red
+fmt.Println(c) // Output: red
+
+switch c {
+case Red:
+    fmt.Println("Color is Red")
+case Green:
+    fmt.Println("Color is Green")
+}
+
+// Below is an example of int enum.
 type Day int
 
 const (
@@ -267,26 +276,14 @@ const (
     Monday
 )
 
-func main() {
-    var c Color = Red
-    fmt.Println(c) // Output: red
+var today Day = Sunday
+fmt.Println(today) // Output: 0
 
-    switch c {
-    case Red:
-        fmt.Println("Color is Red")
-    case Green:
-        fmt.Println("Color is Green")
-    }
-
-    var today Day = Sunday
-    fmt.Println(today) // Output: 0
-
-    switch today {
-    case Sunday:
-        fmt.Println("Today is Sunday")
-    case Monday:
-        fmt.Println("Today is Monday")
-    }
+switch today {
+case Sunday:
+    fmt.Println("Today is Sunday")
+case Monday:
+    fmt.Println("Today is Monday")
 }
 ```
 
