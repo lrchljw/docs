@@ -86,6 +86,13 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ["java"],
     },
+    algolia: {
+      apiKey: "f0bccc0f0c40af769da43ee3d636fc3e",
+      indexName: "lrchljwio",
+      appId: "I87YU09GRR",
+      contextualSearch: true,
+      searchParameters: {},
+    },
   } satisfies Preset.ThemeConfig,
 };
 
