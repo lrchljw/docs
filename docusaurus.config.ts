@@ -90,7 +90,7 @@ const config: Config = {
       apiKey: "f0bccc0f0c40af769da43ee3d636fc3e",
       indexName: "lrchljwio",
       appId: "I87YU09GRR",
-      contextualSearch: true,
+      contextualSearch: false,
       searchParameters: {},
     },
   } satisfies Preset.ThemeConfig,
