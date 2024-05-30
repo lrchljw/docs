@@ -238,6 +238,35 @@ for i < 5 {
 // Go doesn't have do-while loop.
 ```
 
+## Statements
+
+### Tenary Operator
+
+```java title="Java" showLineNumbers
+int a = 10, b = 20;
+int max = (a > b) ? a : b;
+System.out.println(max);
+```
+
+```go title="Go" showLineNumbers
+a, b := 10, 20
+
+// Go doesn't have ternary operator, use if-else statement instead.
+max := a
+if a < b {
+    max = b
+}
+
+// Or use custom function to simulate ternary operator
+func ternary(condition bool, trueVal, falseVal int) int {
+    if condition {
+        return trueVal
+    }
+    return falseVal
+}
+max = ternary(a > b, a, b)
+```
+
 ## Data Types
 
 ### Enum
