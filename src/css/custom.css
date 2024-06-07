@@ -4,6 +4,12 @@
  * work well for content-centric websites.
  */
 
+#__docusaurus {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
