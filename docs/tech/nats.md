@@ -52,3 +52,8 @@ nats pub 'subject' 'data payload'
   - `nats sub >` to observe all messages
 
 > Nats cli
+
+## References
+
+- [Understanding NATS Architecture](https://github.com/nats-io/nats-general/blob/main/architecture/ARCHITECTURE.md)
+- [JetStream](https://docs.nats.io/nats-concepts/jetstream)
