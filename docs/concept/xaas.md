@@ -1,5 +1,5 @@
 ---
-title: IaaS, PaaS, SaaS, FaaS, XaaS
+title: IaaS, IaC, PaaS, SaaS, FaaS, XaaS
 ---
 
 ## IaaS
@@ -36,3 +36,42 @@ Data encryption, access control, and compliance certifications.
 - Data storage and backup.
 - High-performance computing.
 - Web application hosting.
+
+## IaC
+
+- Infrastructure as Code (IaC)
+- Managing computing infrastructure through configuration files.
+- Rather than through physical hardware configuration or interactive configuration tools.
+
+**Benefits:**
+
+- Efficiency: Reduces time and errors associated with manual setup.
+- Consistency: Ensures all environments are set up the same way, avoiding drift.
+- Auditability: Changes are tracked (config files in GIT) and can be reviewed, making the infrastructure more secure and manageable.
+
+**Example Tools:**
+
+- Terraform: An open-source tool that works with many cloud providers (AWS, Azure, Google Cloud) to manage resources.
+- AWS CloudFormation: A service from Amazon to manage AWS resources.
+- Ansible: An open-source tool that uses simple YAML files to manage configurations and deployments.
+
+**Example:**
+
+Using Terraform to create a web server on AWS:
+
+```hcl
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "example-instance"
+  }
+}
+```
+
+Running `terraform apply` would create an EC2 instance with the specified configuration.
