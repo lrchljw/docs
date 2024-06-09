@@ -185,6 +185,10 @@ m := map[string]int{"a": 1, "b": 2}
 for k, v := range m {
     fmt.Printf("Key: %s, Value: %d\n", k, v)
 }
+// only key
+for k := range m {
+    fmt.Println("Key:", k)
+}
 
 // over String
 s := "Hello"
