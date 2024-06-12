@@ -6,8 +6,9 @@ description: record my basic understanding of NATS
 # NATS
 
 - Nats Core
+  - Using Raft consensus protocol to sync subjects across the cluster
 - JetStream
-  - Persistent storage
+  - Persistent storage using local disk
   - Key/Value store
 
 ## Nats Core
@@ -57,3 +58,7 @@ nats pub 'subject' 'data payload'
 
 - [Understanding NATS Architecture](https://github.com/nats-io/nats-general/blob/main/architecture/ARCHITECTURE.md)
 - [JetStream](https://docs.nats.io/nats-concepts/jetstream)
+
+- [Distributed messaging with NATS](https://dev.to/karanpratapsingh/distributed-messaging-with-nats-3jg3)
+
+- [Using NATS to build a scalable Websocket server](https://medium.com/@14domino/using-nats-to-build-a-very-functional-websocket-server-8f4de44c3f12)
