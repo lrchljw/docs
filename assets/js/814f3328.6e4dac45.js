@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Debugging Methods","permalink":"/my-website/blog/2024/05/29/debugging-methods","unlisted":false},{"title":"My first blog","permalink":"/my-website/blog/2024/05/25/my-first-blog","unlisted":false}]}')}}]);
