@@ -96,10 +96,6 @@ Using the topological sort algorithm can not visit all nodes in the graph, beaca
   - decrement count(w) for all edges from v to w; and add w to S if count(w) hits 0
   - this is O(1) per edge
 
-:::note
-
-:::
-
 ### Use Cases
 
 - Find the maximum depth of each node in a graph.
